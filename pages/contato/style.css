@@ -1,0 +1,229 @@
+/*
+Autor: Aguinaldo Borges,
+Idioma padrão: Inglês
+*/
+
+/* #################### Contact Us #################### */
+#contact-us {
+
+    display: flex;
+    justify-content: space-between;
+
+
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+
+    border-top: solid 1px #33323D26;
+
+}
+
+#contact-us-title {
+
+    width: 25%;
+    padding: 40px 0;
+
+
+}
+
+#contact-us-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 65%;
+    padding: 40px 0;
+
+}
+
+#contact-us-title h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#contact-us-body p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#contact-us-social-links {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+#contact-us-social-links .horizontal-menu-ul {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#contact-us-social-links .horizontal-menu-li {
+
+    padding-right: 15px;
+
+}
+
+
+
+
+/* #################### Contact Form #################### */
+#contact-form {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    border-top: solid 1px #33323D26;
+
+}
+
+#contact-form-title {
+
+    width: 50%;
+    padding: 40px 0;
+
+
+}
+
+#contact-form-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 50%;
+    padding: 40px 0;
+
+}
+
+#contact-form-body form {
+    width: 100%;
+}
+
+.form-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-item label {
+    width: 100%;
+
+    padding: 5px 0;
+
+    font-size: 13px;
+    opacity: 0.8;
+
+}
+
+.form-item input {
+    height: 48px;
+    width: 100%;
+    background: #E5E4E6;
+    border: solid 2px #E5E4E6;
+}
+
+.form-item input::focus {
+    border-color: #000;
+}
+
+.form-item textarea {
+    width: 100%;
+    background: #E5E4E6;
+    border: solid 2px #E5E4E6;
+}
+
+.form-item textarea::focus {
+    border-color: #000;
+}
+
+#contact-form-title h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#form-button {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+#form-button input {
+    height: 48px;
+    width: 150px;
+    opacity: 0.8;
+    background: #203A4C;
+    color: #FAFAFA;
+}
+
+#form-button input:hover {
+    border-color: #5FB4A2;
+    background: #5FB4A2;
+
+}
+
+/* #################### Contact #################### */
+#contact {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 150px;
+
+}
+
+#contact h2 {
+
+    width: 35%;
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#contact button {
+
+    width: 130px;
+
+}

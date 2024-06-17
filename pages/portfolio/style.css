@@ -1,0 +1,323 @@
+/*
+Autor: Aguinaldo Borges,
+Idioma padrão: Inglês
+*/
+
+/* #################### Manage #################### */
+
+#manage {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+}
+
+#manage img {
+
+    position: relative;
+    width: 50%;
+
+}
+
+#manage-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 40%;
+    padding: 40px 0;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+}
+
+#manage-body h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#manage-body p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#manage-button {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#manage-button button {
+
+    width: 204px;
+
+}
+
+/* #################### Bookmark #################### */
+
+#bookmark {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+}
+
+#bookmark img {
+
+    position: relative;
+    width: 50%;
+
+}
+
+#bookmark-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 40%;
+    padding: 40px 0;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+}
+
+#bookmark-body h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#bookmark-body p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#bookmark-button {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#bookmark-button button {
+
+    width: 204px;
+
+}
+
+/* #################### Insure #################### */
+
+#insure {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+}
+
+#insure img {
+
+    position: relative;
+    width: 50%;
+
+}
+
+#insure-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 40%;
+    padding: 40px 0;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+}
+
+#insure-body h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#insure-body p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#insure-button {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#insure-button button {
+
+    width: 204px;
+
+}
+
+/* #################### Fylo #################### */
+
+#fylo {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+}
+
+#fylo img {
+
+    position: relative;
+    width: 50%;
+
+}
+
+#fylo-body {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 40%;
+    padding: 40px 0;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+}
+
+#fylo-body h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#fylo-body p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#fylo-button {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#fylo-button button {
+
+    width: 204px;
+
+}
+
+/* #################### Contact #################### */
+#contact {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 150px;
+
+}
+
+#contact h2 {
+
+    width: 35%;
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#contact button {
+
+    width: 130px;
+
+}

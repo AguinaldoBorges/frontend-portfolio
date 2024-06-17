@@ -1,0 +1,298 @@
+/*
+Autor: Aguinaldo Borges,
+Idioma padrão: Inglês
+*/
+
+/* #################### Hero #################### */
+#hero {
+
+    display: flex;
+    align-items: flex-end;
+
+    width: 1218px;
+    height: calc(100vh - 165px);
+    flex-shrink: 0;
+
+    background: url(../../assets/portfolio/manage/image-manage-hero.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+
+}
+
+
+
+/* #################### Project #################### */
+
+#project {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+}
+
+#project img {
+
+    position: relative;
+    width: 100%;
+    padding: 25px 0;
+
+}
+
+#project-button {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+#project-button button {
+
+    width: 204px;
+
+}
+
+#project-left {
+
+    height: fit-content;
+    width: 40%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+}
+
+#project-left h2 {
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#project-left p {
+
+    padding: 30px 0;
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+#project-tecnologies {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#project-tecnologies p {
+
+    color: #5FB4A2;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+
+    padding: 5px 0;
+}
+
+#project-right {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 40%;
+    padding: 40px 0;
+
+
+}
+
+#project-right h3 {
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#project-preview-title {
+    padding-top: 50px;
+}
+
+#project-right p {
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 187.5% */
+    opacity: 0.8;
+
+}
+
+/* #################### Links #################### */
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    border-top: solid 1px #33323D26;
+    border-bottom: solid 1px #33323D26;
+
+    margin-bottom: 100px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+#links #left a {
+
+    color: #33323D80;
+
+}
+
+
+
+#links #left a h3,
+#right a h3 {
+
+    color: #33323D;
+
+}
+
+#left-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#left-link span {
+    padding-left: 10px;
+}
+
+
+#links #right a {
+
+    color: #33323D80;
+
+}
+
+#right-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#right-link span {
+    padding-right: 10px;
+}
+
+/* #################### Contact #################### */
+#contact {
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 150px;
+
+}
+
+#contact h2 {
+
+    width: 35%;
+
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 105% */
+    letter-spacing: -0.357px;
+
+}
+
+#contact button {
+
+    width: 130px;
+
+}
+
+
+
+/* #################### Generic Class #################### */
+.opaque-btn {
+    height: 48px;
+    flex-shrink: 0;
+
+    background: none;
+    border: 1px solid;
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.opaque-btn:hover {
+    background: #33323D;
+    color: #FAFAFA;
+}
+
+
+.horizontal-menu-ul {
+
+    display: flex;
+
+    width: 22%;
+
+    justify-content: space-between;
+
+}
+
+.horizontal-menu-li {
+
+    display: inline;
+
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.horizontal-menu-a {
+
+    text-decoration: none;
+
+}

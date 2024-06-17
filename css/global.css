@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all .8s;
+}
+
+body {
+
+    background: #FAFAFA;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* #################### Header #################### */
+
+header {
+
+    width: calc(100vw - 225px);
+    flex-shrink: 0;
+
+    padding: 10px 100px;
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+header svg {
+
+    width: 60.082px;
+    height: 32px;
+    flex-shrink: 0;
+
+}
+
+
+#menu {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    height: 120px;
+
+}
+
+#menu ul li a {
+    color: #33323D;
+}
+
+#active-menu-item {
+
+    color: #5FB4A2;
+
+}
+
+
+
+/* #################### Main #################### */
+main {
+
+    padding: 0 100px;
+
+}
+
+/* #################### Footer #################### */
+
+footer {
+
+    height: 65px;
+    background: #33323D;
+    color: #FAFAFA;
+
+}
+
+#footer-menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+    padding-top: 5px;
+
+}
+
+#footer-menu-left {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 40%;
+
+}
+
+
+footer img {
+
+    padding: 0 25px;
+
+}
+
+
+#footer-menu ul li {
+
+    padding: 0 15px;
+
+}
+
+
+
+#footer-menu ul li a {
+
+    color: #FAFAFA;
+
+}
+
+#footer-menu-right .horizontal-menu-ul {
+    padding-right: 30px;
+}
+
+#footer-menu-right .horizontal-menu-li {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+
+
+}
+
+#footer-menu-right .horizontal-menu-a img {
+
+    padding: 0 10px;
+
+}
+
+/* #################### Generic Class #################### */
+.opaque-btn {
+    height: 48px;
+    flex-shrink: 0;
+
+    background: none;
+    border: #33323D 1px solid;
+
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.opaque-btn:hover {
+    background: #33323D;
+    color: #FAFAFA;
+}
+
+
+.horizontal-menu-ul {
+
+    display: flex;
+
+    width: 22%;
+
+    justify-content: space-between;
+
+}
+
+.horizontal-menu-li {
+
+    display: inline;
+
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.horizontal-menu-a {
+
+    text-decoration: none;
+
+}
+
+/* #################### Elements #################### */
+
+button {
+    cursor: pointer;
+}
